@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>MY SWEET ROOM</title>
+
+	<style type="text/css">
+		
+
+		@font-face {
+    		font-family: 'Butler Bold';
+   			 font-style: normal;
+   			 font-weight: normal;
+  			  src: url('Butler_Bold.woff') format('woff');
+  		}
+  		@font-face {
+		    font-family: 'Pretendard-Regular';
+		    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+		    font-weight: 400;
+		    font-style: normal;
+		}
+
+		 @font-face {
+		    font-family: 'Pretendard-SemiBold';
+		    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-SemiBold.woff') format('woff');
+		    font-weight: 600;
+		    font-style: normal;
+		}
+
+
+
+		h1,h2,body,ul,li,a,header{margin: 0; padding: 0; color:black}
+		html{scroll-behavior: smooth;}
+		h1{font-size: 600%; text-align: center;  padding-bottom: 40%; padding-top: 18%; top: 50%;
+			left: 50%;}
+		h1,h2{color:#FF5A2E; font-family: 'Butler Bold';}
+		h3{margin: 0; padding-left: 10%; font-family: 'Pretendard-SemiBold'; font-size: 32px; padding-bottom: 1%; }
+		h2{
+			padding-top: 5%;
+			padding-left: 10%; 
+			font-size:800%;
+			padding-bottom: 22%;
+		}
+		h3{
+			margin: 0; 
+			padding-left: 10%; 
+			font-family: 'Pretendard-SemiBold'; 
+			font-size: 32px; 
+			padding-bottom: 1%; }
+/*		nav{
+			position: fixed;
+			z-index: 1;
+			width: 100%;
+		}*/
+
+		p{
+			margin: 0;
+			line-height: 28px; 
+			text-align: left; 
+			font-size: 16px; 
+			padding-left: 10%; 
+			padding-right: 10%; 
+			font-family: 'Pretendard-Regular'; 
+/*			color:rgba(0,0,0.5)*/
+/*			color: gray;*/
+		}
+		li{list-style-type: none;}
+		a{
+			display: block;
+			padding: 10px 15px;
+			background: white;
+			text-decoration: none;
+			border-radius: 4px;
+			color : #FF5A2E
+		}
+		a:hover{background: #FF5A2E;
+			color:white;
+			transition:all 0.5s}
+
+		
+
+
+		.wrapper{width: 90%; 
+				margin:auto; 
+/*				padding: 10px; */
+				}
+		.flex{display:flex; justify-content: space-between}
+		.bg-white{background-color: rgba(255,255,255); box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.05);}
+		.bg-navy{color: #FF5A2E; background: #223147; padding-top: 300px; padding-bottom: 300px; font-size: 11px; line-height: 18px;}
+
+		.menu{width: 400px;}
+		.bgimg{background:url(main_background.jpeg);
+			background-size:cover;
+			background-attachment: fixed;
+			height: 1000px;}
+
+		.date{color: gray; font-size: 12px;}
+		.contents{
+/*			padding-bottom: 0px;*/
+/*			padding-right: 15%; padding-left: 55%;*/
+			text-align: left; 
+			opacity: 65%;
+		}
+
+		.feedback{
+/*			padding-bottom: 0px;*/
+/*			padding-right: 15%; */
+			text-align: left; 
+/*			padding-left: 55%; */
+			color:#FF5A2E; 
+			font-size:12px; 
+			line-height:16.5px;
+			font-family: 'Pretendard-Semibold'; 
+			padding-top: 3%;}
+
+		.col-2{width: 50%; }
+		.problem{padding-left:10%; padding-right: 10%; padding-top: 50px; padding-bottom: 2%; font-family: 'Pretendard-SemiBold'; font-size: 24px; color:#FF5A2E; background-color: rgba(255,255,255,0.5);}
+		.problem_content{padding-left:10%; padding-right: 10%; padding-bottom:50px; background-color: rgba(255,255,255,0.5); color:gray;}
+		.arrow{width: 30%; display: block;margin: 0 auto; padding-top: 50px; padding-right: 20%;}
+
+
+		.room_img{padding-top:100px; background : url(1.png); background-size: 70%; margin:auto; background-attachment:fixed; height:500px;background-repeat: no-repeat; padding-bottom: 800px;}
+		.room_img_2{padding-top:100px; background : url(2.png); background-size: 70%; margin:auto; background-attachment:fixed; height:500px;background-repeat: no-repeat; padding-bottom: 800px;}
+		.room_img_3{padding-top:100px; background : url(3.png); background-size: 70%; margin:auto; background-attachment:fixed; height:500px;background-repeat: no-repeat; padding-bottom: 800px;}
+		.room_img_4{padding-top:100px; background : url(4.png); background-size: 70%; margin:auto; background-attachment:fixed; height:0px;background-repeat: no-repeat; padding-bottom: 600px;}
+
+
+
+
+
+	</style>
+
+</head>
+
+<body>
+
+	<nav class="bg-white" style="position: fixed; z-index: 1; width: 100%;"> 
+		<div class="wrapper flex">
+			<div class="logo"><a href="index.html" style="font-family: Butler Bold;">MY SWEET ROOM</a></div>
+				<ul class="menu flex">
+					<li><a href="#REST">REST</a></li>
+					<li><a href="#WORK">WORK</a></li>
+					<li><a href="#BALANCE">BALANCE</a></li>
+					<li><a href="#NOW">NOW</a></li>	
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+
+
+
+
+
+
+
+	<header class="bgimg">
+		<h1>MY<br>SWEET<br>ROOM</h1>
+			</header>
+
+
+
+
+
+
+	<section class="bgimg" style="background-color: rgba(255,255,255,0.5); height:100%;">
+		<p class="problem">좁은 방, 똑같은 배치. 지긋지긋하다..</p>
+		<p class="problem_content">
+		2021년 8월, 드디어 자취를 시작했다. 혼자 있는 시간을 즐기는 나에게 자취생활은 최고였다. 협동문까지 1분이 채 안 걸리는 내 소중한 5평 원룸. 그러나 공부, 잠, 요리, 식사를 모두 한 공간에서 이루어지기 때문이었을까. 내가 보는 시야는 늘 한정적이었고 그 공간 자체가 조금씩 질리기 시작했다. 하지만 계약기간은 한참 남아있었고, 공간이 질릴 때마다 이사를 갈 수도 없는 노릇이다.
+		</p>
+	</section>
+
+
+
+
+
+
+
+	<section class="bg-navy">
+		<p style="color:#FF5A2E; text-align: center; font-size:42px; padding-top:100px;  background: #223147; font-family:'Pretendard-SemiBold'">I need a <u>change</u>!</p>
+
+		<p style="color:rgba(255, 255, 255, 0.7); padding-left :30%; padding-right:30%; padding-top: 6%; padding-bottom: 100px; background: #223147;">
+		환경에 변화가 필요했다. 나는 집중이 안되거나 기분이 우울할 때마다 방 청소를 하며 내 환경을 가꾸는데, 그럼에도 풀리지 않을 때가 있다. 그럴 때마다 방 배치를 바꾼다. 1년 반을 살면서 다섯 번 정도는 바꾼 것 같다. 효과는 매우 좋다.
+		</p>
+	</section>
+
+
+
+
+
+
+
+
+	<section>
+		<img src="line_arrow.png" width="1%" style="display: block;margin: 0 auto; padding-top:80px">
+		<p style="color:#FF5A2E; text-align:center; padding-bottom: 500px; padding-left :10%; padding-right:10%; padding-top: 5%; font-family: 'Pretendard-SemiBold';">지금부터 내 고뇌가 담긴, 그간 내 방의 성장과정이다!</p>
+	</section>
+
+
+
+
+
+
+<!-- 
+	<section>
+		<div class="room_img">
+			<h2>Rest</h2>
+			<h3>넓은 휴식공간</h3>
+			<p class="date">2021.08</p>
+			<p class="contents">
+				이 배치는 이사 왔을 때 그대로의 모습을 살린 배치이다. 넓은 휴식공간이 있다는 것이 특징이다. 침대 옆 공간이 꽤나 넓어서 친구들이 놀러오면 좌식테이블을 펼쳐두고 놀았다. 가끔 심심할 때 	방바닥에 자주 드러눕기도 했다. 침대가 가장 명당자리에 위치해서, 자고 일어나면 머리맡에 햇빛이 쫙 들어와 기분 좋게 일어나곤 했다. 하지만 작업공간이 너무 불안정했다. 바로 옆에 현관문이 보여서 집중하기 어려웠다. 또 창을 등지게 되다 보니 괜히 앉기 싫어졌다. 작업공간의 개선이 필요했다. 휴학을 해서 집에서 작업을 하다보니 더 절실했다.
+			</p>
+			<p class="feedback">
+			책상과 현관을 떨어뜨려야겠어!
+			</p>
+			<img src="arrow.png" style="width: 60%; display: block;margin: 0 auto; padding-top: 50px;">
+		</div>
+	</section> -->
+
+	<section>
+		
+		<div class="room_img">
+			<a name="REST"style="padding: 0;"></a>
+			<h2>Rest</h2>
+
+			<div class="wrapper flex">
+				<div class="col-2"> 
+					<h3>넓은 휴식공간</h3>
+					<p class="date">2021.08</p>
+			</div>
+			<div class="col-2">
+					<p class="contents">
+						이 배치는 이사 왔을 때 그대로의 모습을 살린 배치이다. 넓은 휴식공간이 있다는 것이 특징이다. 침대 옆 공간이 꽤나 넓어서 친구들이 놀러오면 좌식테이블을 펼쳐두고 놀았다. 가끔 심심할 때 	방바닥에 자주 드러눕기도 했다. 침대가 가장 명당자리에 위치해서, 자고 일어나면 머리맡에 햇빛이 쫙 들어와 기분 좋게 일어나곤 했다. 하지만 작업공간이 너무 불안정했다. 바로 옆에 현관문이 보여서 집중하기 어려웠다. 또 창을 등지게 되다 보니 괜히 앉기 싫어졌다. 작업공간의 개선이 필요했다. 휴학을 해서 집에서 작업을 하다보니 더 절실했다.
+					</p>
+					<p class="feedback">
+						책상과 현관을 떨어뜨려야겠어!
+					</p>
+			</div>
+			</div>
+
+		<img class="arrow" src="arrow.png">
+		</div>
+
+	</section>
+
+
+
+
+
+
+
+
+
+
+
+
+	<section>
+		<div class="room_img_2">
+			<a name="WORK" style="padding: 0;"></a>
+
+			<h2>WORK</h2>
+
+			<div class="wrapper flex">
+				<div class="col-2"> 
+					<h3>구석진 편안한 작업 공간</h3>
+					<p class="date">2022.04</p>
+				</div>
+				<div class="col-2">
+					<p class="contents">
+						내 방에서 가장 구석진 곳(=명당)에 작업 공간을 내주었다. 오른쪽 창가에서 드는 햇빛을 볼 수 있어서, 작업할 때 좀더 '살아있다'는 느낌을 받았다. 다 좋았다. 그러나 휴식과 취침에 있어서는 최악이었다. 나는 이 때 당시 잠을 한 번이라도 개운하게 잔 적이 없었다. 바로 오른 편 벽이 옆집과 맞닿아 있어 각종 생활소음에 잠을 깼고, 침대에 누웠을 때 바로 출입문이 보이니 굉장히 불안했다. 침대는 절대 이곳에 있으면 안됐다.
+					</p>
+					<p class="feedback">
+						침대도 현관에서 떨어뜨려야겠어! 침대가 옆집과 맞닿지 않도록 해야겠어!
+					</p>
+				</div>
+		</div>
+			
+		<img class="arrow" src="arrow.png">
+		</div>
+	</section>
+
+
+
+
+
+
+
+
+
+
+	<section>
+		<div class="room_img_3">
+			<a name="BALANCE"style="padding: 0;"></a>
+			<h2>BALANCE</h2>
+
+			<div class="wrapper flex">
+				<div class="col-2"> 
+					<h3>모든 짐은 현관에.</h3>
+					<p class="date">2022.07</p>
+				</div>
+				<div class="col-2">
+					<p class="contents">
+						두 차례의 시행착오를 거치며, 현관 쪽에는 책상도 침대도 두지 않아야 함을 깨달았다. 그래서 주 생활공간은 최대한 안쪽으로 밀어넣고, 이를 위해 옷장을 비롯한 각종 짐들을 모두 현관 쪽으로 배치했다. 다시 창가 쪽에 침대가 위치해서 편안하게 잠을 잘 수 있었다. 옷장을 뺀 덕에 책상도 안쪽으로 밀어 넣을 수 있었다. 서랍장 위에 올라가있던 선반도 분리해서 책장으로 활용하여 작업공간을 넓혔다. 작업공간과 휴식의 균형이 잡혔다. 침대에서 누웠을 때 책상 위의 모니터가 보여 애니메이션을 보면서 편안하게 잠들 수 있다는 점도 마음에 들었다.
+					</p>
+					<p class="feedback">
+						(역시 구석이 최고야)
+					</p>
+				</div>
+		</div>
+
+			<img class="arrow" src="arrow.png">
+		</div>
+	</section>
+
+
+
+
+
+
+
+
+<section>
+		<div class="room_img_4">
+			<a name="NOW"style="padding: 0;"></a>
+			<h2>NOW</h2>
+
+			<div class="wrapper flex">
+				<div class="col-2"> 
+					<h3>앞이 트여있는 작업 공간</h3>
+					<p class="date">2022.12</p>
+				</div>
+				<div class="col-2">
+					<p class="contents">
+						책상 앞이 트여있는 배치에 도전해보고 싶어졌다. 벽만 보던 시야가 확 트이니 시원하고 좋았다. 책상에 앉으면 등 뒤에 책장이 있어서, 나만의 작업 영역이 구축된 느낌도 들어 좋았다. 또 침대에 누웠을 때 모니터가 바로 보이는 각도라, 코난이나 짱구를 틀어두고 편히 잠에 들 수 있었다.
+					</p>
+					<p class="feedback">
+						하지만 더 이상 좌식테이블을 사용하기엔 비좁아졌고, 침대에 누웠을 때 부엌이 보이는 것도 조금 아쉬울 때가 있다.
+					</p>
+				</div>
+		</div>
+		</div>
+	</section>
+
+
+
+
+
+
+
+<section>
+	
+		<img src="line_arrow.png" width="1%" style="display: block;margin: 0 auto; padding-top:20%;">
+	
+	<p style="padding-left: 10%; padding-right:10%; padding-top:100px; text-align: center;font-family: 'Pretendard-SemiBold'; font-size: 28px; color:#FF5A2E">Hmmmmmmmmm...!</p>
+	<p style="padding-left: 10%; padding-right:10%; padding-top:21px; text-align: center;font-family: 'Pretendard-SemiBold'; padding-bottom: 56px; font-size: 36px; color:black;">이제 슬슬..또 바꿔보려구요.</p>
+
+		<p style="color: gray; padding-inline: 10%; font-size: 12px; line-height: 18px;  text-align: center; ">
+			* 책상과 현관을 떨어뜨릴 것. <br> * 침대와 현관을 떨어뜨릴 것. <br> * 침대가 옆집에 맞닿지 않도록 할 것. <br> * 침대에 누웠을 때 책상 위 모니터가 잘 보이도록 할 것. <br> * 좌식테이블을 사용할 수 있는 여유공간을 둘 것. <br> * 침대에 누웠을 때 부엌이 보이지 않도록 할 것.
+		</p>
+
+		<p style="color: #FF5A2E; padding-inline: 10%; padding-top:10px; padding-bottom: 300px; font-size: 12px; line-height: 18px;  text-align: center; ">
+			<s>어렵네~~</s>
+		</p>
+</section>
+
+
+
+
+
+
+
+
+
+
+	<footer class="bg-navy" style="padding-top:200px; padding-bottom:50px;">
+		<hr align="center" style="border: solid 0.1px #FF5A2E"; width="80.8%;">
+		<div class="wrapper flex" style="padding-top: 5px;">
+			<div class="col-2">
+				<p style="font-size: 11px; line-height:18px;">ⓒ2023. Kil Jeongyeon All rights reserved. <br> 근데 방배치 바꾸면 진짜 기분 좋아져요. 추천합니다.</p>
+			</div>	
+			<div class="col-2">
+				<p style="font-size: 11px; line-height:18px;text-align: right;">kilfamily9768@gmail.com</p>
+			</div>
+		</div>
+	</footer>
+
+</body>
+</html>
